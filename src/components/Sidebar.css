@@ -1,0 +1,92 @@
+.sidebar {
+    background-color: #0E5A6F;
+    color: white;
+    padding: 20px;
+    width: 250px;  /* Fixed width for the sidebar */
+    position: fixed;
+    height: 100vh; /* Full height of the screen */
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;  /* Prevent shrinking */
+    justify-content: space-between; /* Pushes content apart */
+}
+  
+.sidebar-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align images to the left */
+    padding-left: 25px; /* Adjust the padding if needed */
+    margin-bottom: 30px; /* Space between header and other content */
+    margin-top: 30px; 
+}
+
+.sidebar-logo {
+    width: 150px; /* Adjust the size of the first image if needed */
+    margin-bottom: 10px; /* Space between the two images */
+    margin-top: 15px;
+}
+
+.sidebar-icon {
+    width: 50px; /* Adjust the size of the second image */
+    padding-left: 8px;
+    margin-top: 5px;
+}
+  
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-left: 48px; /* Shift the entire sidebar nav content to the right */
+    text-align: left; /* Keep text aligned to the left */
+}
+
+
+.sidebar-nav li {
+    position: relative; /* Set relative positioning for the list item */
+    padding: 18px 0; /* Vertical spacing */
+    cursor: pointer; /* Show pointer on hover */
+    padding-left: 5px; /* Add left padding to make space for the icon */
+    transition: text-decoration 0.3s; /* Smooth transition for underlining */
+}
+  
+.sidebar-nav li.selected {
+    text-decoration: underline; /* Underline the selected text */
+    /* color: #e1e1e1;  *//* Change text color if needed */
+}
+
+.sidebar-nav li.active {
+    color: #f8f8f8;
+}
+  
+.tick-icon {
+    position: absolute; /* Use absolute positioning */
+    left: -25px; 
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    width: 16px; /* Adjust size as needed */
+    height: 16px; /* Adjust size as needed */
+    display: none; /* Initially hide the icon */
+}
+
+.sidebar-nav li.selected .tick-icon {
+    display: block; /* Show the icon only for selected item */
+}
+
+
+
+
+
+
+/* ****************************************************************** */
+/* EXTRA CSS STYLES FOR FUTURE */
+
+/* .alert-icon {
+    color: red;
+}  */
+
+  
