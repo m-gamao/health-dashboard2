@@ -9,6 +9,17 @@ const Sidebar = () => {
     setSelectedItem(item); // Set the selected item
   };
 
+  const menuItems = [
+    'Dashboard',
+    'Appointments',
+    'Vitals/Records',
+    'Medications/Pharmacy',
+    'Lab Results',
+    'Radiology/Imaging',
+    'SmartHealth', 
+    'Health Insurance'
+  ];
+
   return (
     <div className="sidebar">
       <div className="sidebar-header">
@@ -16,11 +27,11 @@ const Sidebar = () => {
         <img src="/Caduceus.png" alt="Caduceus" className="sidebar-icon" />
       </div>
       <ul className="sidebar-nav">
-        {['Dashboard', 'Appointments', 'Vitals/Records', 'Medications/Pharmacy', 'Lab Results', 'Radiology/Imaging'].map((item) => (
+        {menuItems.map((item) => (
           <li 
             key={item} 
             onClick={() => handleItemClick(item)} 
-            className={selectedItem === item ? 'selected' : ''} // Add a class if selected
+            className={selectedItem === item ? 'selected' : ''}
           >
             {selectedItem === item && (
               <img src="/Tick Box.png" alt="Selected" className="tick-icon" />

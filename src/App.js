@@ -1,12 +1,29 @@
 import React from 'react';
-import './App.css'; 
-import Dashboard from './pages/Dashboard';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import PageBackdrop from './components/PageBackdrop';
+// import Dashboard from './Dashboard';
+// import Appointments from './Appointments';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Dashboard />
-    </div>
+    <Router>
+      <div className="app-container">
+        <Sidebar />
+        <PageBackdrop>
+          {/* <Switch> */}
+            {/* <Route path="/dashboard"> */}
+              {/* <Dashboard /> */}
+            {/* </Route> */}
+            {/* <Route path="/appointments"> */}
+              {/* <Appointments /> */}
+            {/* </Route> */}
+            {/* Add more routes here for other components */}
+          {/* </Switch> */}
+        </PageBackdrop>
+      </div>
+    </Router>
   );
 }
 
