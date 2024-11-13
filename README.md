@@ -1,4 +1,48 @@
-Thanks for following along on my Health App Journey!
+Thanks for following along on my Health App Journey! I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. The first Epic is the creation of the Dashboard which is the homepage of the app. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
+
+*MVP - Technical Requirements:*
+
+*Tasks completed:*
+1. Build the green sidebar.
+2. Add App Name (header) and Logo.
+3. Add navigation items list.
+4. Add the page backdrop (which will appear on every page of the app).
+
+*To Do List:*
+
+*Dashboard tasks:*
+
+*Medication Reminders*
+1. Add container for the Medication Reminder section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the medication name and time (separate container).
+5. Build API call to database for the medication/time.
+6. Connect the Edit button to the Medication Reminder Settings page.
+
+*Appointments Reminders*:
+1. Add container for the Appointments Reminder section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the appointment name, date and time (separate container).
+5. Build API call to database for the appointment name, date, and time.
+6. Connect the Edit button to the Appointments Settings page.
+
+*Appointments Calendar*:
+1. Add container for the Appointments Calendar section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the calendar (separate container).
+5. Build API call to database for the appointment dates.
+6. Connect the Edit button to the Appointments Settings page.
+
+*Smart Health*:
+1. Add container for the Smart Health section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the appointment name, date and time (separate container).
+5. Build API call to database for the appointment name, date, and time.
+6. Connect the Edit button to the Appointments Settings page.
 
 
 
