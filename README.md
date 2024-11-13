@@ -1,3 +1,9 @@
+Thanks for following along on my Health App Journey!
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
