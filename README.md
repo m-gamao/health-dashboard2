@@ -12,7 +12,7 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 
 *Dashboard tasks:*
 
-*Medication Reminders*
+*Medication Reminders:*
 1. Add container for the Medication Reminder section.
 2. Add header and logo in a separate container.
 3. Add edit button and functionality to #2.
