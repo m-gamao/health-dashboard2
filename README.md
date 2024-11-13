@@ -1,3 +1,70 @@
+Thanks for following along on my Health App Journey! I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. The first Epic is the creation of the Dashboard which is the homepage of the app. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
+
+*MVP - Technical Requirements:*
+
+*Tasks completed:*
+1. Build the green sidebar.
+2. Add App Name (header) and Logo.
+3. Add navigation items list.
+4. Add the page backdrop (which will appear on every page of the app).
+
+*To Do List:*
+
+EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 4 stories below and each contains a series of tasks.
+
+*Dashboard tasks:*
+
+*Medication Reminders:*
+The User can see their current medications to take and edit the medication or change the status to completed, missed, or cancelled. This then gets logged in the database.
+1. Add container for the Medication Reminder section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the medication name and time (separate container).
+5. Build API call to database for the medication/time.
+6. Connect the Edit button to the Medication Reminder Settings page.
+
+*Appointments Reminders*:
+The User can see their current health appointments and edit the appointment or change the status to completed, missed, or cancelled. This then gets logged in the database.
+1. Add container for the Appointments Reminder section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the appointment name, date and time (separate container).
+5. Build API call to database for the appointment name, date, and time.
+6. Connect the Edit button to the Appointments Settings page.
+
+*Appointments Calendar*:
+The User can see which days of the calendar have appointments scheduled and edit the appointment or change the status to completed, missed, or cancelled. This then gets logged in the database.
+1. Add container for the Appointments Calendar section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the calendar (separate container).
+5. Build API call to database for the appointment dates.
+6. Connect the Edit button to the Appointments Settings page.
+
+*Smart Health*:
+The User can see their current health metrics from smart health devices and be able to edit the setup. This then gets logged in the database.
+1. Add container for the Smart Health section.
+2. Add header and logo in a separate container.
+3. Add edit button and functionality to #2.
+4. Add the display field for the appointment name, date and time (separate container).
+5. Build API call to database for the appointment name, date, and time.
+6. Connect the Edit button to the Appointments Settings page.
+
+
+********************
+
+
+
+
+
+
+
+
+
+
+
+*************************************************************************
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
