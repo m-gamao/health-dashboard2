@@ -10,7 +10,7 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 
 *To Do List:*
 
-EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 5 stories below and each contains a series of tasks for Frontend development.
+EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 6 stories below and each contains a series of tasks for Frontend development.
 
 *Frontend Dashboard tasks:*
 
