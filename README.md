@@ -50,6 +50,13 @@ The User can see their current health metrics from smart health devices and be a
 5. Build API call to database for the appointment name, date, and time.
 6. Connect the Edit button to the Appointments Settings page.
 
+*Inspirational Quotes*:
+The User can see a new inspirational quote at the start of each week. This is pulled from an API database of quotes.
+1. Add container for the quotes section.
+2. Add header and logo in a separate container.
+3. Add a display field for the quote.
+5. Build API call to database for the quotes, and have it call a new quote once a week (Sundays).
+
 
 ********************
 
