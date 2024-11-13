@@ -3,7 +3,7 @@
     color: white;
     width: 250px;
     height: 100vh; /* Full height of the viewport */
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     left: 0;
     top: 0;
@@ -17,16 +17,19 @@
 
 .sidebar-logo {
     width: 150px;
+    margin-top: 20px;
+    padding-left: 15px;
 }
 
 .sidebar-icon {
     width: 40px;
+    padding-right: 20px;
 }
 
 .sidebar-nav {
     list-style: none;
-    padding: 0;
-    margin-top: 30px;
+    padding: 18;
+    margin-top: 260px;
 }
 
 .sidebar-nav li {
@@ -38,9 +41,11 @@
 
 .sidebar-nav li.selected {
     font-weight: bold;
+    color:aqua
 }
 
 .tick-icon {
+    margin-left: -30px;
     margin-right: 10px;
     width: 20px;
 }
