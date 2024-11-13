@@ -10,9 +10,15 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 
 *To Do List:*
 
-EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 4 stories below and each contains a series of tasks.
+EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 5 stories below and each contains a series of tasks.
 
-*Dashboard tasks:*
+*Frontend Dashboard tasks:*
+
+*Greeting:*
+The User sees a personalized greeting at the top of the page with their name.
+1. Add container for the header/greeting section.
+2. Add background photo. This will be hardcoded for the MVP.
+3. Add the user name. 
 
 *Medication Reminders:*
 The User can see their current medications to take and edit the medication or change the status to completed, missed, or cancelled. This then gets logged in the database.
