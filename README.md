@@ -10,9 +10,12 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 
 *To Do List:*
 
+EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 4 stories below and each contains a series of tasks.
+
 *Dashboard tasks:*
 
 *Medication Reminders:*
+*Story:* The User can see their current medications to take and edit the medication or change the status to completed, missed, or cancelled. This then gets logged in the database.
 1. Add container for the Medication Reminder section.
 2. Add header and logo in a separate container.
 3. Add edit button and functionality to #2.
@@ -21,6 +24,7 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 6. Connect the Edit button to the Medication Reminder Settings page.
 
 *Appointments Reminders*:
+*Story:* The User can see their current health appointments and edit the appointment or change the status to completed, missed, or cancelled. This then gets logged in the database.
 1. Add container for the Appointments Reminder section.
 2. Add header and logo in a separate container.
 3. Add edit button and functionality to #2.
@@ -29,6 +33,7 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 6. Connect the Edit button to the Appointments Settings page.
 
 *Appointments Calendar*:
+*Story:* The User can see which days of the calendar have appointments scheduled and edit the appointment or change the status to completed, missed, or cancelled. This then gets logged in the database.
 1. Add container for the Appointments Calendar section.
 2. Add header and logo in a separate container.
 3. Add edit button and functionality to #2.
@@ -37,6 +42,7 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 6. Connect the Edit button to the Appointments Settings page.
 
 *Smart Health*:
+*Story:* The User can see their current health metrics from smart health devices and be able to edit the setup. This then gets logged in the database.
 1. Add container for the Smart Health section.
 2. Add header and logo in a separate container.
 3. Add edit button and functionality to #2.
@@ -45,8 +51,19 @@ Thanks for following along on my Health App Journey! I designed the UI mockups i
 6. Connect the Edit button to the Appointments Settings page.
 
 
+********************
 
 
+
+
+
+
+
+
+
+
+
+*************************************************************************
 
 # Getting Started with Create React App
 
