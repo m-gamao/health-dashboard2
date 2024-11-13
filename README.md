@@ -15,7 +15,7 @@ EPIC 1: The User can navigate the dashboard/homepage and see reminders for their
 *Frontend Dashboard tasks:*
 
 *Greeting:*
-The User sees a personalized greeting at the top of the page with their name.
+The User sees a personalized greeting at the top of the page with their firstname.
 1. Add container for the header/greeting section.
 2. Add background photo. This will be hardcoded for the MVP.
 3. Add the user name. 
