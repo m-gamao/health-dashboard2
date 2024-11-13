@@ -1,0 +1,43 @@
+-src
+    -components
+        -Sidebar.js
+        -Sidebar.css
+        -PageBackdrop.js
+        -PageBackdrop.css
+        -MedicationReminder.js
+        -MedicationReminder.css
+        -AppointmentReminder.js
+        -AppointmentReminder.css
+        -AppointmentsCalendar.js
+        -AppointmentsCalendar.css
+        -SmartHealth.js
+        -SmartHealth.css
+        -InspiringQuotes.js
+        -InspiringQuotes.css
+    -pages
+        -Dashboard.js
+        -Dashboard.css
+        -GoalSetting.js
+        -GoalSetting.css
+        -Medications.js
+        -Medications.css
+        -Appointments.js
+        -Appointments.css
+        -VitalsRecords.js
+        -VitalsRecords.css
+        -LabResults.js
+        -LabResults.css
+        -Radiology.js
+        -Radiology.css
+        -SmartHealth.js
+        -SmartHealth.css
+        -HealthInsurance.js
+        -HealthInsurance.css
+        -Payments.js
+        -Payments.css
+    -App.js
+    -App.css
+    -index.js
+    -index.css
+
+        
