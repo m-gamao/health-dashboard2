@@ -3,7 +3,7 @@
     padding: 20px;
     /* Light grey background */
     /* background-color: #f5f5f5;  */ /* this is the official color for production*/
-    background-color: #93a8ec; /* temporary color for editing purposes */
+    background-color: #e4e7f1; /* temporary color for editing purposes */
     min-height: 100vh; /* Full height */
     min-width: 2000vh;
     border-radius: 15px 0 0 15px;
