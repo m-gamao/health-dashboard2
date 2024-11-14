@@ -1,4 +1,4 @@
-Thanks for following along on my Health App Journey! I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. The first Epic is the creation of the Dashboard which is the homepage of the app. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
+Thanks for following along on my Health App Journey! I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. The goal of this web app is to help users manage their health in a more organized way, and help them achieve health goals. The first Epic is the creation of the Dashboard which is the homepage of the app. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
 
 *MVP - Technical Requirements:*
 
