@@ -1,8 +1,16 @@
-Thanks for following along on my Health App Journey! I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. The goal of this web app is to help users manage their health in a more organized way, and help them achieve health goals. 
+Thanks for following along on my Health App Journey! 
+
+About the App: 
+
+The goal of this web app is to help users manage their health in a more organized way, and help people achieve their health goals. 
+
+Intro: 
+
+I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. 
 
 Product Management Goals:
 
-The first Epic is the creation of the Dashboard which is the homepage of the app. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
+The first milestone to achieve is to build a dashboard for the homepage. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
 
 *MVP - Technical Requirements:*
 
