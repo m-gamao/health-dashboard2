@@ -1,0 +1,20 @@
+/* Layout.css */
+.layout {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #002D47; /* Dark blue sidebar */
+    padding: 20px;
+    color: white;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f3f8fb; /* Light background */
+    min-height: 100vh;
+  }
+
+  
