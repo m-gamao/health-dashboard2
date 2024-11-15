@@ -1,8 +1,5 @@
 import React from 'react';
-import Sidebar from '../components/Sidebar';
 import GreetingBar from '../components/GreetingBar';
-import './GreetingBar.css';
-
 
 const Dashboard = () => {
     return (
@@ -13,4 +10,4 @@ const Dashboard = () => {
     );
   };
 
-export default Sidebar
+export default Dashboard
