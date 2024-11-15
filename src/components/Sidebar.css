@@ -41,7 +41,8 @@
 
 .sidebar-nav li.selected {
     font-weight: bold;
-    color:aqua
+    /* color:aqua */
+    color: rgb(95, 229, 238)
 }
 
 .tick-icon {

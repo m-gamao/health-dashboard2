@@ -6,7 +6,7 @@ const Sidebar = () => {
 
   // Function to handle item selection
   const handleItemClick = (item) => {
-    setSelectedItem(item); // Set the selected item
+    setSelectedItem(item); // Updates the selectedItem state
   };
 
   const menuItems = [
@@ -17,7 +17,8 @@ const Sidebar = () => {
     'Lab Results',
     'Radiology/Imaging',
     'SmartHealth', 
-    'Health Insurance'
+    'Health Insurance',
+    'Logout'
   ];
 
   return (

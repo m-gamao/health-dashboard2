@@ -1,0 +1,16 @@
+.greeting-bar {
+    background-color: #f3f8fb; /* Light background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Arial, sans-serif';
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .greeting-bar h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #3e4a61; /* Dark text color */
+  }
+  
