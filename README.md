@@ -8,23 +8,28 @@ Intro:
 
 I designed the UI mockups in Figma. I'm approaching this systematically and the technical requirements are listed below. 
 
-Product Management Goals:
+Current Goals:
 
-The first milestone to achieve is to build a dashboard for the homepage. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
+1. Create a Landing Page - register new user, sign in, forgot password.
+3. Create a Homepage/dashboard. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
 
 *MVP - Technical Requirements:*
 
-*Tasks completed:*
-1. Build the green sidebar.
-2. Add App Name (header) and Logo.
-3. Add navigation items list.
-4. Add the page backdrop (which will appear on every page of the app).
+*Epic 1:* Build layout for the app.
+1. Build sidebar navigation. - DONE
+2. Add App Name (header) and Logo. - DONE
+3. Add the page backdrop (which will appear on every page of the app). - DONE
 
-*To Do List:*
+*Epic 2:* Build landing page, user registration, login, logout, forgot password protocols.
+1. Build landing page
+2. User registration, accounts setup
+3. Login, logout.
+4. Forgot password.
+5. SSO.
 
-EPIC 1: The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 6 stories below and each contains a series of tasks for Frontend development.
+*Epic 3:* The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 6 stories below and each contains a series of tasks for Frontend development.
 
-*Frontend Dashboard tasks:*
+*******Frontend Tasks:*******
 
 *Greeting:*
 The User sees a personalized greeting at the top of the page with their firstname.
@@ -74,6 +79,11 @@ The User can see a new inspirational quote at the start of each week. This is pu
 2. Add header and logo in a separate container.
 3. Add a display field for the quote.
 5. Build API call to database for the quotes, and have it call a new quote once a week (Sundays).
+
+******Backend Dashboard Tasks:*******
+
+
+
 
 
 ********************

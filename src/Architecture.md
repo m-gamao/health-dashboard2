@@ -17,8 +17,8 @@
         -InspiringQuotes.js
         -InspiringQuotes.css
     -pages
-        -Login
-        -Signup
+        -LandingPage.js
+        -LandingPage.css
         -Dashboard.js
         -Dashboard.css
         -GoalSetting.js

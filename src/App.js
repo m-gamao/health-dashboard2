@@ -3,7 +3,6 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Layout from './components/Layout';
-// import Dashboard from './components/Dashboard';
 // import Appointments from './Appointments';
 
 
