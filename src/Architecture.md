@@ -1,5 +1,7 @@
 -src
     -components
+        -Layout.js
+        -Layout.css
         -Sidebar.js
         -Sidebar.css
         -PageBackdrop.js
