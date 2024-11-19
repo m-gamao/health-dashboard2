@@ -13,6 +13,11 @@ Current Goals:
 1. Create a Landing Page - register new user, sign in, forgot password.
 3. Create a Homepage/dashboard. It will remind the user of their medications, current appointments, and health metrics/readings that are important to them and their goals.
 
+Future Scope:
+1. Develop the other pages (goal setting journal page, appointments manager, medication manager, lab results manager, health insurance, smart health setup)
+2. Connection to smart health devices like Apple Watch, and fitbit.
+3. Chat assistant to help with goal setting and reminders.
+
 *MVP - Technical Requirements:*
 
 *Epic 1:* Build layout for the app.
