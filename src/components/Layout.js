@@ -2,13 +2,12 @@
 import React from 'react';
 import Sidebar from './Sidebar'; 
 import './Layout.css'; 
-import PageBackdrop from './PageBackdrop';
+
 
 const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Sidebar />
-      <PageBackdrop />
       <div className="main-content">
         {children}
       </div>

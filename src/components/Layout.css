@@ -1,20 +1,19 @@
-/* Layout.css */
 .layout {
     display: flex;
-  }
-  
-  .sidebar {
-    width: 250px;
+}
+
+.sidebar {
+    width: 250px; /* Fixed width for the sidebar */
     background-color: #002D47; /* Dark blue sidebar */
     padding: 20px;
     color: white;
-  }
-  
-  .main-content {
-    flex-grow: 1;
-    padding: 20px;
-    background-color: #f3f8fb; /* Light background */
-    min-height: 100vh;
-  }
+    flex-shrink: 0; /* Prevent the sidebar from shrinking */
+}
 
-  
+.main-content {
+    flex-grow: 1; /* Take up the remaining space */
+    /* padding: 20px; Add some spacing for the content */
+    background-color: #f3f8fb; /* Light background */
+    min-height: 100vh; /* Ensure the main content stretches the full height of the screen */
+    margin-left: 270px; /* Offset the content to the right by the sidebar's width */
+}

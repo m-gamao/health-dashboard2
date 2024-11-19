@@ -1,30 +1,44 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import './GreetingBar.css';
 
 const GreetingBar = () => {
-  const [firstName, setFirstName] = useState('');
+  const [greeting, setGreeting] = useState('');
+  const [currentDateTime, setCurrentDateTime] = useState('');
+  const userName = 'Lana'; // Replace with dynamic fetching from the database if available
 
-  // Fetch user's first name (data fetching logic here)
   useEffect(() => {
-    const fetchUserName = async () => {
-      try {
-        // API/database call
-        const response = await fetch('/api/getUserData'); // endpoint
-        const data = await response.json();
-
-        // Assuming the API returns an object with a 'firstName' field
-        setFirstName(data.firstName || 'User');
-      } catch (error) {
-        console.error('Error fetching user data:', error);
-        setFirstName('User'); // Fallback if there is an error
+    // Determine greeting based on the time of day
+    const updateGreeting = () => {
+      const currentHour = new Date().getHours();
+      if (currentHour < 12) {
+        setGreeting('Good Morning');
+      } else if (currentHour < 18) {
+        setGreeting('Good Afternoon');
+      } else {
+        setGreeting('Good Evening');
       }
     };
 
-    fetchUserName();
+    // Update date and time dynamically
+    const updateDateTime = () => {
+      const now = new Date();
+      const options = { weekday: 'long', month: 'long', day: 'numeric' };
+      const formattedDate = now.toLocaleDateString('en-US', options);
+      const formattedTime = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+      setCurrentDateTime(`Today is ${formattedDate}, ${formattedTime}`);
+    };
+
+    updateGreeting();
+    updateDateTime();
+
+    const interval = setInterval(updateDateTime, 1000); // Update the time every second
+    return () => clearInterval(interval); // Cleanup the interval on component unmount
   }, []);
 
   return (
     <div className="greeting-bar">
-      <h1>Good Morning, {firstName}!</h1>
+      <h1>{`${greeting}, ${userName}!`}</h1>
+      <p className="date-time">{currentDateTime}</p>
     </div>
   );
 };
