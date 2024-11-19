@@ -1,0 +1,27 @@
+.medication-reminders {
+    background-color: #ffffff; /* White background for the section */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    border-radius: 8px; /* Rounded corners */
+    margin-left: 30px; /* Align with the greeting bar */
+    margin-top: 10px; /* Space below the greeting bar */
+    padding: 20px; /* Inner spacing */
+    width: calc(50% - 22px); /* Take up the left half of the screen minus margins */
+    min-height: 300px; /* Ensures it doesn’t collapse */
+    display: flex; /* Flex container for content alignment */
+    flex-direction: column; /* Aligns header and content vertically */
+}
+
+.medication-header img {
+    width: 100%; /* Ensure the header image spans the section width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Round top corners */
+    margin-bottom: 15px; /* Add spacing below the header image */
+}
+
+.medication-content {
+    flex-grow: 1; /* Expands to fill available space */
+    text-align: center; /* Center align the text */
+    font-family: 'Arial, sans-serif';
+    color: #6c7b8b; /* Subtle gray text color */
+    font-size: 16px;
+}
