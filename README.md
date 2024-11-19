@@ -38,14 +38,14 @@ Future Scope:
 
 *Greeting:*
 The User sees a personalized greeting at the top of the page with their firstname.
-1. Add container for the header/greeting section.
-2. Add background photo. This will be hardcoded for the MVP.
-3. Add the user name. 
+1. Add container for the header/greeting section. - DONE
+2. Add background photo. This will be hardcoded for the MVP.- DONE
+3. Add the user name. -DONE
 
 *Medication Reminders:*
 The User can see their current medications to take and edit the medication or change the status to completed, missed, or cancelled. This then gets logged in the database.
-1. Add container for the Medication Reminder section.
-2. Add header and logo in a separate container.
+1. Add container for the Medication Reminder section.- DONE
+2. Add header and logo in a separate container. - DONE
 3. Add edit button and functionality to #2.
 4. Add the display field for the medication name and time (separate container).
 5. Build API call to database for the medication/time.
