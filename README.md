@@ -34,6 +34,8 @@ Future Scope:
 
 *Epic 3:* The User can navigate the dashboard/homepage and see reminders for their current medications, healthcare appointments, and health metrics from smart devices such as Apple Watch. There are 6 stories below and each contains a series of tasks for Frontend development.
 
+*Epic 4*: A chat assistant helps the user to develop their health goals, plan strategies, and reminders.
+
 *******Frontend Tasks:*******
 
 *Greeting:*
