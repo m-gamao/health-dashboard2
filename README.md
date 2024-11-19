@@ -51,6 +51,9 @@ The User can see their current medications to take and edit the medication or ch
 5. Build API call to database for the medication/time.
 6. Connect the Edit button to the Medication Reminder Settings page.
 
+*Connect Nav item to page*:
+1. When user clicks Dashboard link on the navbar, it navigates to the Dashboard page. (homepage).
+
 *Appointments Reminders*:
 The User can see their current health appointments and edit the appointment or change the status to completed, missed, or cancelled. This then gets logged in the database.
 1. Add container for the Appointments Reminder section.
