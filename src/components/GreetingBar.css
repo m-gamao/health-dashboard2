@@ -14,7 +14,7 @@
     display: flex; /* Makes the bar a flex container */
     flex-direction: column; /* Aligns children vertically */
     justify-content: space-between; /* Spaces out the greeting and date/time */
-    height: 100px; /* Adjust the height as necessary */
+    height: 75px;
 }
 
 .greeting-bar h1 {
@@ -25,7 +25,7 @@
     z-index: 2; /* Ensures the text is above the background */
     position: relative; /* Keeps the text positioned normally */
     margin: 0; /* Removes unwanted margin */
-    margin-top: 35px;
+    margin-top: 20px;
 }
 
 .greeting-bar .date-time {
