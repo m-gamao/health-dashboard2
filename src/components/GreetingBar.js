@@ -4,7 +4,7 @@ import './GreetingBar.css';
 const GreetingBar = () => {
   const [greeting, setGreeting] = useState('');
   const [currentDateTime, setCurrentDateTime] = useState('');
-  const userName = 'Lana'; // Replace with dynamic fetching from the database if available
+  const userName = 'Lana'; // Replace with dynamic fetching from the database
 
   useEffect(() => {
     // Determine greeting based on the time of day
